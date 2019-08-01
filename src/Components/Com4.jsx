@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import js from '../Assets/images/js.svg'
-import vilaapp from '../Assets/images/vilaapp.svg'
+import vilaapp from '../Assets/images/vilaapp-logo.png'
 import graduate from '../Assets/images/graduate-diploma.png'
 import arasico from '../Assets/images/arasico.png'
 import studioone from '../Assets/images/studi-one.png'
@@ -326,7 +326,7 @@ I also did a lot of custom-made websites and applications. I learn to use PHP La
                                             </ul>
                                         </p>
                                     <p>
-                                    Using frameworks and technologies such as PHP Laravel, Wordpress, Electron, React, Redux,Node.js and React Native. I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.
+                                    Using frameworks and technologies such as PHP Laravel, Wordpress, Electron, React, Redux,Node.js and React Native.working with Test Driven Development in React with Jest and Enzyme,  I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.
 
                                     </p>
                                     <span className="educationIcon">
@@ -373,7 +373,7 @@ I also did a lot of custom-made websites and applications. I learn to use PHP La
                                         </span>
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.didikojast.com">www.didikojast.com</a>
+                                            <a href="https://www.behance.net/gallery/60211989/DIDIkojast">www.didikojast.com</a>
                                         </span>
 
 
@@ -469,7 +469,7 @@ I work with PHP,  HTML, CSS, Javascript, Jquery, C#, Webkit . . .
                                         </span>
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.arajobs.ir">www.arajobs.ir</a>
+                                            <a href="#">No Link</a>
                                         </span>
 
 
@@ -500,7 +500,7 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                         </span>
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.saghfenoo.com">www.saghfenoo.com</a>
+                                            <a href="https://www.behance.net/gallery/50695663/saghfenoo-app">www.saghfenoo.com</a>
                                         </span>
 
 
@@ -530,7 +530,7 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                         </span>
                                         <span class="color1"> 
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.bebello.ir">www.bebello.ir</a>
+                                            <a href="https://www.behance.net/gallery/57570079/bebello-UIUX">www.bebello.ir</a>
                                         </span>
 
 
@@ -622,7 +622,7 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                         </span>
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.vilaapp.ir">www.vilaapp.ir</a>
+                                            <a href="https://www.behance.net/gallery/73223415/VilaApp">www.vilaapp.ir</a>
                                         </span>
                                     </span>
                                 </div>
