@@ -120,6 +120,7 @@ button{outline: none;border: none;background-color: transparent}
   line-height: 3.5vh;
   color: #fff;
   font-weight: 300;
+  text-align: justify;
 }
 
 /* ========================SECTION 2 ================= */
@@ -293,11 +294,12 @@ text-align: center;
   color: #333;
 }
 .educationDescProject p {
-  padding: 0px 50px 20px 0px;
-  line-height: 20px;
+  padding: 0 50px 20px 0;
+  line-height: 26px;
   font-size: 20px;
   font-weight: 300;
   color: #6f6f6f;
+  text-align: justify;
 }
 .educationDescProjectUl li {
   font-weight: 300;

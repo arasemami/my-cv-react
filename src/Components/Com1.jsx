@@ -36,7 +36,7 @@ class Com1 extends Component{
                                 </p>
                                 <p className="sectionIcons" >
                             
-                                    <a href="https://linkedin.com/in/imanemami/"> <FontAwesomeIcon className="" icon={['fab', 'linkedin-in']} /></a>
+                                    <a href="https://linkedin.com/in/arasemami/"> <FontAwesomeIcon className="" icon={['fab', 'linkedin-in']} /></a>
                                     <a href="https://www.behance.net/arasemami"><FontAwesomeIcon className="" icon={['fab', 'behance']} /></a>
                                     <a href="https://medium.com/@aras.emami"><FontAwesomeIcon className="" icon={['fab', 'medium-m']} /></a>
                                     <a href="https://github.com/arasemami">  <FontAwesomeIcon className="" icon={['fab', 'github-alt']} /></a>
