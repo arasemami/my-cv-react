@@ -34,30 +34,28 @@ Charlie Chaplin                 </p>
                                 <div className="skills" >
                                     <div>
                                         <span>Bootstrap Framework</span>
-                                        <span>CSS</span>
+                                        <span>CSS & Sass</span>
                                         <span>HTML</span>
                                         <span>JSON</span>
                                         <span>MySQL</span>
-                                        <span>PHP</span>
+                                        <span>PHP Laravel</span>
                                         <span>XML</span>
                                         <span>Builder Pattern</span>
                                         <span>Command spanne Interface</span>
                                     </div>
                                     <div>
-                                        <span>Bootstrap Framework</span>
-                                        <span>CSS</span>
-                                        <span>HTML</span>
-                                        <span>JSON</span>
-                                        <span>MySQL</span>
-                                        <span>PHP</span>
-                                        <span>XML</span>
-                                        <span>Builder Pattern</span>
-                                        <span>Command spanne Interface</span>
+                                        <span>Gulp & Grunt</span>
+                                        <span>Webpack</span>
+                                        <span>Babel</span>
+                                        <span>Polymer</span>
+                                        <span>Kendo</span>
+                                        <span>Green Sock</span>
+                                        <span>Design Patterns</span>
+                                        <span>Jasmine, Karma and Enzyme</span>
+                                        <span>Jira</span>
                                     </div>
                                 </div>
-                                <div className="skillDesc" >
-                                    <p>This project is build on a custom made PHP framework.</p>
-                                </div>
+                        
                             </div>
                             <div className="abilitiesFavor" >
                                 <div className="abilitiesTitleBox">

@@ -326,7 +326,7 @@ I also did a lot of custom-made websites and applications. I learn to use PHP La
                                             </ul>
                                         </p>
                                     <p>
-                                    Using frameworks and technologies such as PHP Laravel, Wordpress, Electron, React, Redux,Node.js and React Native.working with Test Driven Development in React with Jest and Enzyme,  I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.
+                                    Using frameworks and technologies such as PHP Laravel, Wordpress, Electron, React, Redux, Babel, Gulp, GreenSock, Node.js and React Native. working with Test Driven Development in React with Jest and Enzyme, I also introduced working with Git Flow and supporting my colleagues to write nice readable and reusable code.
 
                                     </p>
                                     <span className="educationIcon">
