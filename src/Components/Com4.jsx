@@ -168,7 +168,7 @@ Charlie Chaplin
                                 <div className="educationDescProject">
                                     <h1> Software and Web Developer</h1>
                                     <p>
-                                    everything started from here. ARASICO first was a little developer team and after growing and Create more project It was officially established in 2008 as a software development company (Ara system). There I learned to apply my knowledge of Visual Basic, C#, SQL Server, network configuration and ASP.net. I designed and developed their web-bases solutions. Like the online order system in 2006.
+                                    It all started from here. At first, ARASICO was the developer team and after growing and Create more project It was officially established in 2008 as a software development company (Ara system). There I learned to apply my knowledge in Visual Basic, C#, SQL Server, network configuration and ASP.net. I designed and developed their web-based solutions. Like the online order system in 2006.
                                     </p>
                                     <span className="educationIcon">
                                         <span className="color1">
