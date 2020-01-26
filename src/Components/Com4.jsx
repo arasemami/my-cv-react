@@ -166,7 +166,7 @@ Charlie Chaplin
                                     </p>
                                 </div>
                                 <div className="educationDescProject">
-                                    <h1> Software and Web Developer</h1>
+                                    <h1>Junior Software and Web Developer</h1>
                                     <p>
                                     It all started from here. At first, ARASICO was the developer team and after growing and Create more project It was officially established in 2008 as a software development company (Ara system). There I learned to apply my knowledge in Visual Basic, C#, SQL Server, network configuration and ASP.net. I designed and developed their web-based solutions. Like the online order system in 2006.
                                     </p>
@@ -177,7 +177,7 @@ Charlie Chaplin
                                         </span>
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.arasico.com">www.arasico.com</a>
+                                            <a href="#">www.arasico.com</a>
                                         </span>
 
                                        
@@ -195,9 +195,10 @@ Charlie Chaplin
                                     </p>
                                 </div>
                                 <div className="educationDescProject">
-                                    <h1> Software Developer</h1>
-                                    <p>I start working with web frameworks and libraries like javascript, Backbone, Lodash, Underscore, CSS3, Sass, HTML5, Bootstrap.<br/>
-                                        I learn to work with B2B system and B2C.
+                                    <h1> Web Developer</h1>
+                                    <p>
+                                    I started working in the Zagrot in 2010. At Zagrot company we focused on web-based private projects. Our goal was to provide web-based systems for small and average businesses. Systems like the online store, Bulk SMS service, Real-Estate web and etc.
+I started working on web frameworks and libraries like javascript, Backbone, Lodash, Underscore, CSS3, Sass, HTML5, Bootstrap
                                     </p>
                                     <span className="educationIcon">
                                         <span class="color1">
@@ -225,8 +226,8 @@ Charlie Chaplin
                                 <div className="educationDescProject">
                                     <h1>UI/UX Desginer & Front end developer</h1>
                                     <p>
-                                    Right after left my country, I started working for STUDIO ONE: a full-service internet agency. I developed a homemade CMS, CRM, and e-mail marketing system. The CMS was used for dozens of clients, as well as the e-mail marketing system. 
-I also did a lot of custom-made websites and applications. I learn to use PHP Laravel framework, javascript like Backbone.js, Jquery, underscore.js and ...
+                                    after I found an opportunity in Armenia, I started working for STUDIO ONE: a full-service internet agency. I developed a homemade CMS, CRM, and e-mail marketing system. The CMS was used for dozens of clients, as well as the e-mail marketing system. 
+I also did a lot of custom-made websites and applications. I learned using PHP Laravel framework, javascript like Backbone.js, Jquery, underscore.js and ...
                                     </p>
                                     <span className="educationIcon">
                                         <span class="color1">
@@ -237,8 +238,6 @@ I also did a lot of custom-made websites and applications. I learn to use PHP La
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="http://www.studio-one.am">www.studio-one.am</a>
                                         </span>
-
-
                                     </span>
                                 </div>
                             </div>
@@ -267,7 +266,6 @@ I also did a lot of custom-made websites and applications. I learn to use PHP La
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="http://www.etgigrup.com">www.etgigrup.com</a>
                                         </span>
-
                                     </span>
                                 </div>
                             </div>
