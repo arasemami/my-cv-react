@@ -326,13 +326,14 @@ I work with Typescript, AngularJS framework, Ionic, CSS/SASS and xamarin
                                 </div>
                             </div>
                         </div>
-
-                        <div className="">
+                        
+                        <div className="career">
                             <div className="educationTitle">
                                 <h1>
                                 Volunteer
                                 </h1>
                             </div>
+                            
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">DIDI KOJAST</h1>
@@ -361,7 +362,6 @@ I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . 
                                 </div>
                             </div>
 
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">OPTIMUS APP</h1>
@@ -388,8 +388,6 @@ I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . 
                                 </div>
                             </div>
 
-
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">TOND TOND</h1>
@@ -400,10 +398,7 @@ I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . 
                                 </div>
                                 <div className="educationDescProject">
                                     <h1>Technical Consulting</h1>
-                                    <p>
-                                    TOND TOND is a new startup in Iran base at food core category. they want make an website and application for order online food. I helped them to design a better user experience and more comfortable user interface.
-I develop software, client side to get an order from customers and responsive to order.
-                                    </p>
+                                    <p>TOND TOND is a new startup in Iran base at food core category. they want make an website and application for order online food. I helped them to design a better user experience and more comfortable user interface. I develop software, client side to get an order from customers and responsive to order.</p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
@@ -413,19 +408,18 @@ I develop software, client side to get an order from customers and responsive to
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="http://www.tondtond.com">www.tondtond.com</a>
                                         </span>
-
-
                                     </span>
                                 </div>
                             </div>
   
                         </div>
-                        <div className="">
+                        <div className="career">
                             <div className="educationTitle">
                                 <h1>
                                 Startups
                                 </h1>
                             </div>
+
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">ARA JOBS</h1>
@@ -436,10 +430,7 @@ I develop software, client side to get an order from customers and responsive to
                                 </div>
                                 <div className="educationDescProject">
                                     <h1>Co-Founder and Software Developer</h1>
-                                    <p>
-                                    The main activities organized a system for employers and job seekers through Short Message Service has been the site of many employers and job seekers are welcome.
-I work with PHP,  HTML, CSS, Javascript, Jquery, C#, Webkit . . .
-                                    </p>
+                                    <p>The main activities organized a system for employers and job seekers through Short Message Service has been the site of many employers and job seekers are welcome. I work with PHP,  HTML, CSS, Javascript, Jquery, C#, Webkit . . .</p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
@@ -449,13 +440,9 @@ I work with PHP,  HTML, CSS, Javascript, Jquery, C#, Webkit . . .
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="#">No Link</a>
                                         </span>
-
-
                                     </span>
                                 </div>
                             </div>
-
-
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
@@ -486,8 +473,6 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                 </div>
                             </div>
 
-
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">BEBELLO</h1>
@@ -517,7 +502,6 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                             </div>
 
 
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">TARSIM NOOR</h1>
@@ -540,13 +524,9 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="http://www.tarsimnoor.com/">www.tarsimnoor.com</a>
                                         </span>
-                                        
-                                        
                                     </span>
                                 </div>
                             </div>
-
-
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
@@ -558,9 +538,7 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                 </div>
                                 <div className="educationDescProject">
                                     <h1>Co-Founder and  App Developer</h1>
-                                    <p>
-                                    Falang App is a startup in Iran base to make learning English words easier. I working with React, React Native, Native Base, Redux, Node.js and . . .
-                                    </p>
+                                    <p>Falang App is a startup in Iran base to make learning English words easier. I working with React, React Native, Native Base, Redux, Node.js and . . .</p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
@@ -570,12 +548,9 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="http://www.falangapp.ir">www.falangapp.ir</a>
                                         </span>
-                                        
-                                        
                                     </span>
                                 </div>
                             </div>
-
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
@@ -606,7 +581,6 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                 </div>
                             </div>
                             
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">VISHAR</h1>
