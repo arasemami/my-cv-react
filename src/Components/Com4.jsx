@@ -44,7 +44,6 @@ Charlie Chaplin
                                 <h1>Educations</h1>
                             </div>
                        
-
                             <div className="educationDesc">
                                 <div className="educationDescName" >
                                     <h1 className="color1">Amirkabir University of Technology</h1>
@@ -69,8 +68,6 @@ Charlie Chaplin
                                 </div>
                             </div>
                            
-
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">MSI Academy</h1>
@@ -94,9 +91,7 @@ Charlie Chaplin
                                 </div>
                             </div>
 
-
-
-                        <div className="educationDesc">
+                            <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">Mazandaran University of Science and Technology</h1>
                                     <span>2012</span>
@@ -118,8 +113,6 @@ Charlie Chaplin
 
                                 </div>
                             </div>
-
-
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
@@ -144,9 +137,6 @@ Charlie Chaplin
                                 </div>
                             </div>
 
-
-                  
-                            
                         </div>
 
                         {/* -------------- start Career  ----- */}
@@ -185,7 +175,6 @@ Charlie Chaplin
                                 </div>
                             </div>
 
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">ZAGROT</h1>
@@ -214,7 +203,6 @@ I started working on web frameworks and libraries like javascript, Backbone, Lod
                                 </div>
                             </div>
 
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">STUDIO ONE</h1>
@@ -226,7 +214,7 @@ I started working on web frameworks and libraries like javascript, Backbone, Lod
                                 <div className="educationDescProject">
                                     <h1>UI/UX Desginer & Front end developer</h1>
                                     <p>
-                                    after I found an opportunity in Armenia, I started working for STUDIO ONE: a full-service internet agency. I developed a homemade CMS, CRM, and e-mail marketing system. The CMS was used for dozens of clients, as well as the e-mail marketing system. 
+                                    after found a great opportunity in Armenia, I started working for STUDIO ONE: a full-service internet agency. I developed a homemade CMS, CRM, and e-mail marketing system. The CMS was used for dozens of clients, as well as the e-mail marketing system. 
 I also did a lot of custom-made websites and applications. I learned using PHP Laravel framework, javascript like Backbone.js, Jquery, underscore.js and ...
                                     </p>
                                     <span className="educationIcon">
@@ -242,8 +230,6 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                 </div>
                             </div>
 
-
-
                             <div className="educationDesc">
                                 <div className="educationDescName">
                                     <h1 className="color1">ETGI GRUP</h1>
@@ -255,8 +241,9 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                 <div className="educationDescProject">
                                     <h1>Front end Developer</h1>
                                     <p>
-                                    ETGi Grup helps clients about how to use technology to make online education, training and video conferencing which enable more efficient education and communication through the use of technology. I work with Javascript, Agular js, Ionic, CSS/SASS and xamarin
-                                    </p>
+                                    ETGi Grup has a B2B service to helps clients how to use technology to make online education, training and video conferencing which enable education more efficient through the use of technology.
+I work with Typescript, AngularJS framework, Ionic, CSS/SASS and xamarin
+                                        </p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
@@ -269,8 +256,6 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                     </span>
                                 </div>
                             </div>
-
-
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
@@ -298,7 +283,6 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                     </span>
                                 </div>
                             </div>
-
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
@@ -341,8 +325,6 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                     </span>
                                 </div>
                             </div>
-                            
-
                         </div>
 
                         <div className="">
@@ -362,8 +344,8 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                 <div  className="educationDescProject">
                                     <h1>UI/UX Designer and Front end Developer</h1>
                                     <p>
-                                    Didikojast is the Iran largest online lost and found service. We use the speed and reach of social media to help people get reunited with sentimental items and beloved pets across Iran and beyond. I work with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . .
-                                    </p>
+                                    Didikojast is Iran's online lost and found service. We use the speed and reach of social media to help people get reunited with beloved pets across Iran and beyond. 
+I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . .                                    </p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
@@ -402,8 +384,6 @@ I also did a lot of custom-made websites and applications. I learned using PHP L
                                             <FontAwesomeIcon className="" icon={['fas', 'globe']} />
                                             <a href="http://www.optimusapp.com">www.optimusapp.com</a>
                                         </span>
-
-
                                     </span>
                                 </div>
                             </div>
@@ -579,7 +559,7 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                 <div className="educationDescProject">
                                     <h1>Co-Founder and  App Developer</h1>
                                     <p>
-                                    FalangApp is a startup in Iran base for making more easily to learn English words. I working with React, React Native, Native Base, Redux, Node.js and . . .
+                                    Falang App is a startup in Iran base to make learning English words easier. I working with React, React Native, Native Base, Redux, Node.js and . . .
                                     </p>
                                     <span className="educationIcon">
                                         <span class="color1">
