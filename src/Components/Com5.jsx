@@ -124,36 +124,7 @@ Charlie Chaplin                 </p>
                                     <p>Russian<span> (Basickly)</span></p>
                                 </div>
                             </div>
-                            <div className="abilitiesDesc" >
-                                <div className="abilitiesTitleBox">
-                                    <h1>Tools</h1>
-                                </div>
-                                <div className="skills">
-                                    <div>
-                                        <span>Bootstrap Framework</span>
-                                        <span>CSS</span>
-                                        <span>HTML</span>
-                                        <span>JSON</span>
-                                        <span>MySQL</span>
-                                        <span>PHP</span>
-                                        <span>XML</span>
-                                        <span>Builder Pattern</span>
-                                        <span>Command spanne Interface</span>
-                                    </div>
-                                    <div>
-                                        <span>Bootstrap Framework</span>
-                                        <span>CSS</span>
-                                        <span>HTML</span>
-                                        <span>JSON</span>
-                                        <span>MySQL</span>
-                                        <span>PHP</span>
-                                        <span>XML</span>
-                                        <span>Builder Pattern</span>
-                                        <span>Command spanne Interface</span>
-                                    </div>
-                                </div>
-                            </div>
-
+                         
                     </div>
                 </div>
             </div>
