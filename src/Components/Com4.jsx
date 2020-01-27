@@ -372,9 +372,7 @@ I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . 
                                 </div>
                                 <div className="educationDescProject">
                                     <h1>App Developer</h1>
-                                    <p>
-                                        Optimus is a Startup in Europe base. I helped them design and develop React Native themes for their mobile application. I use React NAtive, Redux, Firebase, FCM Push Notification, Agile scrum methode, Realm
-                                    </p>
+                                    <p>Optimus is a Europe Based Agile startup. Optimus offers a platform for everyone to be part of a safe community of like-minded people, share their journey and motivate each other to achieve new goals! I helped them with the scrum method to design and develop React-Native themes for their mobile application. I have been using React-NAtive, Redux, Firebase, FCM Push Notification, Realm.</p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
@@ -388,31 +386,8 @@ I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . 
                                 </div>
                             </div>
 
-                            <div className="educationDesc">
-                                <div className="educationDescName">
-                                    <h1 className="color1">TOND TOND</h1>
-                                    <span>2018</span>
-                                    <p className="educationDescPic">
-                                        <img alt="TOND TOND" src={tond} />
-                                    </p>
-                                </div>
-                                <div className="educationDescProject">
-                                    <h1>Technical Consulting</h1>
-                                    <p>TOND TOND is a new startup in Iran base at food core category. they want make an website and application for order online food. I helped them to design a better user experience and more comfortable user interface. I develop software, client side to get an order from customers and responsive to order.</p>
-                                    <span className="educationIcon">
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
-                                            <a>Iran , Tehran</a>
-                                        </span>
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.tondtond.com">www.tondtond.com</a>
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
-  
                         </div>
+                        
                         <div className="career">
                             <div className="educationTitle">
                                 <h1>
