@@ -185,6 +185,7 @@ Charlie Chaplin
                                 <div className="educationDescProject">
                                     <h1> Web Developer</h1>
                                     <p>
+                                    Zagrot is the digital marketing brand in the field of website design, internet marketing, and mobile services to private companies, brands, and organizations in recent years.
                                     I started working in the Zagrot in 2010. At Zagrot company we focused on web-based private projects. Our goal was to provide web-based systems for small and average businesses. Systems like the online store, Bulk SMS service, Real-Estate web and etc.
 I started working on web frameworks and libraries like javascript, Backbone, Lodash, Underscore, CSS3, Sass, HTML5, Bootstrap
                                     </p>
