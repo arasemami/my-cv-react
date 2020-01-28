@@ -1,24 +1,23 @@
 import React,{Component} from 'react';
-import js from '../Assets/images/js.svg'
-import vilaapp from '../Assets/images/vilaapp-logo.png'
-import graduate from '../Assets/images/graduate-diploma.png'
-import arasico from '../Assets/images/arasico.png'
-import studioone from '../Assets/images/studi-one.png'
-import etgi from '../Assets/images/etgigrup.png'
-import advensis from '../Assets/images/advensis.png'
-import didikoas from '../Assets/images/didikojast.png'
-import optimus from '../Assets/images/optimus.png'
-import tond from '../Assets/images/tondtond.png'
-import arajob from '../Assets/images/arajobs.png'
-import saghf from '../Assets/images/saghfenoo.png'
-import bebelo from '../Assets/images/bebello.png'
-import tarsim from '../Assets/images/tarsimnoor.png'
-import falang from '../Assets/images/falang.png'
-import zagrot from  '../Assets/images/zagrot.png'
-import visharLogo from  '../Assets/images/vishar.png'
+import js from '../Assets/images/js.svg';
+import vilaapp from '../Assets/images/vilaapp-logo.png';
+import graduate from '../Assets/images/graduate-diploma.png';
+import arasico from '../Assets/images/arasico.png';
+import studioone from '../Assets/images/studi-one.png';
+import etgi from '../Assets/images/etgigrup.png';
+import advensis from '../Assets/images/advensis.png';
+import didikoas from '../Assets/images/didikojast.png';
+import optimus from '../Assets/images/optimus.png';
+import arajob from '../Assets/images/arajobs.png';
+import saghf from '../Assets/images/saghfenoo.png';
+import bebelo from '../Assets/images/bebello.png';
+import tarsim from '../Assets/images/tarsimnoor.png';
+import falang from '../Assets/images/falang.png';
+import zagrot from  '../Assets/images/zagrot.png';
+import visharLogo from  '../Assets/images/vishar.png';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fas,  faMapMarkerAlt , faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { fas,  faMapMarkerAlt , faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 
 library.add(fas ,faMapMarkerAlt , faGlobe)
@@ -372,7 +371,8 @@ I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . 
                                 </div>
                                 <div className="educationDescProject">
                                     <h1>App Developer</h1>
-                                    <p>Optimus is a Europe Based Agile startup. Optimus offers a platform for everyone to be part of a safe community of like-minded people, share their journey and motivate each other to achieve new goals! I helped them with the scrum method to design and develop React-Native themes for their mobile application. I have been using React-NAtive, Redux, Firebase, FCM Push Notification, Realm.</p>
+                                    <p>Optimus is a Europe Based Agile startup. Optimus offers a platform for everyone to be part of a safe community of like-minded people, share their journey and motivate each other to achieve new goals!.
+I helped them with the scrum method to design and develop React-Native themes for their mobile application. I have been used React-NAtive, Redux, Firebase, FCM Push Notification, Realm</p>
                                     <span className="educationIcon">
                                         <span class="color1">
                                             <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
