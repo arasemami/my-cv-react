@@ -571,7 +571,7 @@ I work with CSS3/SASS, PHP Laravel, Nodejs, REST FUll API, MongoDb . . .
                                     Vishar is the global creative platform that makes it easy for designers and clients to work together to create designs they love. From clients who need a custom design, to designers who want quality projects, people around the world rely on the tried-and-true Vishar creative process to get a great design. Since 2019, Vishar has grown from a small, online forum into a global community of designers that is now the go-to solution for businesses, agencies and individuals. 
                                     </p>
                                     <p>
-                                    The technology use it the project :  React, Redux, Node.js, MongoDB, Docker, JSDoc, HotJar, WebPack.
+                                    The technology used at this project: React, Redux, Node.js, MongoDB, Docker, JSDoc, HotJar, WebPack.
                                     </p>
                                     <span className="educationIcon">
                                         <span class="color1">
