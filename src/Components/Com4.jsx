@@ -26,7 +26,6 @@ class Com4 extends Component {
     render() {
 
         return (
-
                 <div className="section4 bgColor5">
                     <div className="container">
                         <div className="section4Title">
@@ -538,8 +537,6 @@ class Com4 extends Component {
                         </div>
                     </div>
                 </div>
-          
-
         );
     }
 }
