@@ -1,76 +1,96 @@
-
-
-html{
+html {
   overflow-x: hidden;
 }
+
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 
 }
-ul , li {
+
+ul,
+li {
   list-style: none;
 }
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'montserrat';
-    font-weight: 100;
-}
-a{
-text-decoration: none;
-color: inherit;
-}
-button{outline: none;border: none;background-color: transparent}
 
-
-.bgGradient{
-  position: relative;  
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+  font-weight: 100;
 }
 
-.color1{
-    color: #0099A4;
+a {
+  text-decoration: none;
+  color: inherit;
 }
-.color2{
-    color: #333333;
+
+button {
+  outline: none;
+  border: none;
+  background-color: transparent
 }
-.color3{
-    color: #E6E6E6;
+
+
+.bgGradient {
+  position: relative;
 }
-.color4{
-  color:#EEC54A;
+
+.color1 {
+  color: #0099A4;
 }
-.color5{
-  color:#F0F0F0;
+
+.color2 {
+  color: #333333;
 }
-.color6{
+
+.color3 {
+  color: #E6E6E6;
+}
+
+.color4 {
+  color: #EEC54A;
+}
+
+.color5 {
+  color: #F0F0F0;
+}
+
+.color6 {
   color: #18686E
 }
-.bgColor1{
+
+.bgColor1 {
   background-color: #0099A4;
 }
-.bgColor2{
+
+.bgColor2 {
   background-color: #333333;
 }
-.bgColor3{
+
+.bgColor3 {
   background-color: #E6E6E6;
 }
-.bgColor4{
+
+.bgColor4 {
   background-color: #EEC54A;
 }
-.bgColor5{
+
+.bgColor5 {
   background-color: #F0F0F0;
 }
-.bgColor6{
+
+.bgColor6 {
   background-color: #18686E;
 }
-.active{
+
+.active {
   background-color: #0099a4;
 }
 
-.container{
+.container {
   width: 100%;
   max-width: 1200px;
   margin: auto;
@@ -78,18 +98,22 @@ button{outline: none;border: none;background-color: transparent}
 
 /* =========================SECTION 1 =============== */
 
-.section1Desc{
+.section1Desc {
   padding: 9vh;
 }
+
 .section1 .container {
   display: flex;
   flex-direction: row;
   max-width: 100%;
   height: 100vh;
 }
-.section1Pic , .section1Desc{
+
+.section1Pic,
+.section1Desc {
   width: 50%;
 }
+
 .section1Pic .img {
   width: 100%;
   height: 100%;
@@ -97,24 +121,30 @@ button{outline: none;border: none;background-color: transparent}
   background-position: center;
   background-image: url('./Assets/images/aras.png')
 }
+
 .section1 h1 {
   font-size: 10vh;
   color: #fff;
   font-weight: 600;
 }
-.section1About{
+
+.section1About {
   padding: 10vh 0px 0px;
 }
-.sectionIcons{
+
+.sectionIcons {
   padding: 8vh 1vh;
 }
-.sectionIcons a{
+
+.sectionIcons a {
   transition: all .2s linear;
 }
-.sectionIcons a:hover{
+
+.sectionIcons a:hover {
   opacity: .8;
   transition: all .2s linear;
 }
+
 .section1 p {
   font-size: 3vh;
   line-height: 3.5vh;
@@ -125,17 +155,19 @@ button{outline: none;border: none;background-color: transparent}
 
 /* ========================SECTION 2 ================= */
 
-.section2 .container{
+.section2 .container {
   display: flex;
   flex-direction: row;
   padding: 50px;
 }
-.projectComplete , .sadPlus{
+
+.projectComplete,
+.sadPlus {
   width: 50%;
 }
-.sadPlus{
 
-}
+.sadPlus {}
+
 .sadPlusNumber {
   position: relative;
   padding: 0px;
@@ -145,6 +177,7 @@ button{outline: none;border: none;background-color: transparent}
   font-weight: 900;
   padding-right: 50px;
 }
+
 .sadPlus span {
   font-size: 60px;
   top: -25px;
@@ -152,35 +185,39 @@ button{outline: none;border: none;background-color: transparent}
   position: absolute;
   font-weight: 900;
 }
-.projectComplete p:nth-child(1){
+
+.projectComplete p:nth-child(1) {
   font-size: 19px;
   font-weight: 900;
   padding-bottom: 20px;
-  }
-  
-  .projectComplete p:nth-child(1){
+}
+
+.projectComplete p:nth-child(1) {
   font-size: 18px;
   line-height: 25px;
-  }
+}
 
 
 /* =============================SECTION 3 ======================= */
 
 
-.section3 .container{
+.section3 .container {
   padding: 150px 100px;
 }
-.section3Title{
+
+.section3Title {
   font-size: 60px;
   text-align: center;
   font-weight: 600;
 }
+
 .whatCanEven {
   display: flex;
   flex-direction: row-reverse;
   padding: 50px 0px;
   align-items: center;
 }
+
 .whatCanOdd {
   display: flex;
   flex-direction: row;
@@ -188,38 +225,45 @@ button{outline: none;border: none;background-color: transparent}
   align-items: center;
 
 }
+
 .whatCanImg {
   width: 50%;
 }
-.whatCanImgLeft{
+
+.whatCanImgLeft {
   display: flex;
   justify-content: flex-start;
 }
 
-.whatCanImgRight{
+.whatCanImgRight {
   display: flex;
   justify-content: flex-end;
 }
-.whatCanImg p{
+
+.whatCanImg p {
   width: 250px;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
+
 .whatCanImg p img {
   width: 130px;
 }
-.whatCanDesc{
+
+.whatCanDesc {
   width: 50%;
 }
-.whatCanDesc h1{
+
+.whatCanDesc h1 {
   padding-bottom: 20px;
   font-size: 36px;
   font-weight: 300;
 }
-.whatCanDesc p{
+
+.whatCanDesc p {
   font-size: 28px;
   width: 75%;
   color: rgb(124, 124, 124);
@@ -227,72 +271,85 @@ button{outline: none;border: none;background-color: transparent}
 }
 
 /* ========================SECTION 4 ================= */
-.section4 .container{
+.section4 .container {
   padding: 150px 100px;
 }
-.section4Title{
+
+.section4Title {
   text-align: center;
   padding-bottom: 100px;
 }
-.section4Title h1{
+
+.section4Title h1 {
   font-weight: 600;
 }
+
 .section4Title p {
   width: 500px;
   margin: auto;
   padding-top: 20px;
   line-height: 20px;
 }
-.education {
 
-}
-.educationTitle{
+.education {}
+
+.educationTitle {
   border-bottom: 1px solid #c7c7c7;
   padding: 20px 0px;
   margin-bottom: 50px;
 }
-.educationTitle h1{
+
+.educationTitle h1 {
   font-weight: 300;
 }
+
 .educationDesc {
   display: flex;
   flex-direction: row;
   padding: 50px 0px;
 }
-.educationDescName{
-width: 30%;
-text-align: center;
+
+.educationDescName {
+  width: 30%;
+  text-align: center;
 }
-.educationDescName > span{
+
+.educationDescName>span {
   margin: 10px 0px;
   display: block;
 }
-.educationDescProject{
+
+.educationDescProject {
   width: 70%;
-  }
-  .educationDescProject > span{
-    display: block;
-    line-height: 20px;
-    font-size: 14px;
-    font-weight: 300;
-    color: #6f6f6f;
-    padding: 20px 50px 0px 0px;
-  }
-  .educationDescProject > span a {
-    padding: 0px 10px 0px 5px;
-    font-weight: 300;
-  }
+}
+
+.educationDescProject>span {
+  display: block;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #6f6f6f;
+  padding: 20px 50px 0px 0px;
+}
+
+.educationDescProject>span a {
+  padding: 0px 10px 0px 5px;
+  font-weight: 300;
+}
+
 .educationDescName h1 {
   font-size: 18px;
   padding: 0px 25px;
   font-weight: 400;
 }
-.educationDescProject h1{
+
+.educationDescProject h1 {
   padding-bottom: 20px;
   font-size: 21px;
   font-weight: 600;
   color: #333;
 }
+
 .educationDescProject p {
   padding: 0 50px 20px 0;
   line-height: 26px;
@@ -301,26 +358,29 @@ text-align: center;
   color: #6f6f6f;
   text-align: justify;
 }
+
 .educationDescProjectUl li {
   font-weight: 300;
 
 }
-.educationIcon {
-}
-.educationIcon i{
-}
+
+.educationIcon {}
+
+.educationIcon i {}
+
 .educationIcon i a {
   font-size: 12px;
-padding: 10px;
-font-weight: 300;
+  padding: 10px;
+  font-weight: 300;
 }
+
 .educationDesc div:nth-child(1) span {
   font-size: 16px;
   color: #aaa;
   font-weight: 300;
 }
 
-.educationDescPic{
+.educationDescPic {
   width: 100px;
   height: 100px;
   display: flex;
@@ -329,68 +389,77 @@ font-weight: 300;
   border-radius: 50%;
   margin: auto;
 }
-.educationDescPic img{
+
+.educationDescPic img {
   width: 100%;
 }
+
 /* ========================SECTION 5 ================= */
 
-.section5 .container{
+.section5 .container {
   padding: 150px 100px
 }
-.abilitiesTitle{
+
+.abilitiesTitle {
   text-align: center;
   padding-bottom: 30px;
 
 }
+
 .abilitiesTitle h1 {
   margin-bottom: 20px;
-  font-size:35px; 
+  font-size: 35px;
   font-weight: 600;
 }
+
 .abilitiesTitle p {
   width: 500px;
   margin: auto;
-color:#999
-
+  color: #999
 }
-.abilitiesTitleBox h1{
+
+.abilitiesTitleBox h1 {
   border-bottom: 1px solid #c7c7c7;
   padding: 20px 0px;
   margin-bottom: 50px;
   font-weight: 500;
 }
-.abilitiesDesc{
 
+.abilitiesDesc {}
+
+.skills {
+  display: flex;
+  flex-direction: row;
 }
-.skills{
-display: flex;
-flex-direction: row;
-}
-.skills div{
+
+.skills div {
   display: flex;
   flex-direction: column;
   width: 50%
 }
-.skills div span{
+
+.skills div span {
   padding: 10px;
   color: #333;
   font-weight: 400;
 }
-.abilitiesFavorPic{
+
+.abilitiesFavorPic {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.tooltipBox{
+
+.tooltipBox {
   width: 15%;
   height: 120px;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
-cursor: pointer;
-transition: all .2s linear;
-margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  transition: all .2s linear;
+  margin-bottom: 50px;
 }
 
 .tooltip {
@@ -404,30 +473,33 @@ margin-bottom: 50px;
   top: 120px;
   font-weight: 300;
 }
+
 .tooltipBox:hover .tooltip {
   transform: scale(1);
   visibility: visible;
   transition: all .2s cubic-bezier(0.015, 1.045, 0.400, 1.370);
 }
-.tooltipBox img{
-width: 60%;
+
+.tooltipBox img {
+  width: 60%;
 }
-.skillDesc{
+
+.skillDesc {
   font-size: 13px;
   padding: 20px 0px 20px 250px;
 }
-.abilitiesFavor{
 
-}
-.abilitiesLang{
+.abilitiesFavor {}
 
-}
-.abilitiesLangBox{
+.abilitiesLang {}
+
+.abilitiesLangBox {
   display: flex;
   flex-wrap: wrap;
 
 }
-.abilitiesLangBox p{
+
+.abilitiesLangBox p {
   width: 50%;
   padding: 10px;
   color: #333;
@@ -438,29 +510,33 @@ width: 60%;
 /* ========================SECTION 6 ================= */
 .section6 .container {
   padding: 150px 100px
+}
 
+.project {
+  border-bottom: 1px solid #c7c7c7;
+  padding: 20px;
+  text-align: center;
 }
-.project{
-border-bottom: 1px solid #c7c7c7;
-padding: 20px;
-text-align: center;
-}
-.project h1{
+
+.project h1 {
   margin-bottom: 20px;
   font-size: 35px;
   font-weight: 600;
 }
+
 .project p {
   width: 500px;
   margin: auto;
   color: #999;
 }
-.project p span{
+
+.project p span {
   width: 500px;
   margin: auto;
   color: #999;
 }
-.projectBox{
+
+.projectBox {
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
@@ -468,79 +544,89 @@ text-align: center;
   align-items: center;
   margin-top: 30px;
 }
-.projectBox div{
+
+.projectBox div {
   width: 100%;
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.projectBox div p{
+
+.projectBox div p {
   width: 100%;
   border-radius: 5px;
   margin: 50px;
   position: relative;
   transition: all .3s linear;
 }
-.projectBox div p:hover{
+
+.projectBox div p:hover {
   opacity: .8;
   transition: all .3s linear;
 }
 
-.projectBox div p img{
+.projectBox div p img {
   width: 100%;
   padding: 0px;
   border-radius: 5px;
 }
-.projectBox div p a{
-position: absolute;
-top: 0;
-right: 0;
-left: 0;
-bottom: 0;
+
+.projectBox div p a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
+
 /* ========================SECTION 7================= */
 .section7 .container {
   padding: 150px 100px
 }
 
-.contact{
-text-align: center;
+.contact {
+  text-align: center;
 }
-.contact h1{
+
+.contact h1 {
   margin-bottom: 20px;
   font-size: 35px;
   color: #fff;
   font-weight: 600;
 }
+
 .contact p {
   width: 500px;
   margin: auto;
   color: #333;
   font-size: 13px;
 }
-.contactDesc{
-padding-top: 50px;
-font-size: 20px;
-color: #fff;
-text-align: center;
-}
-.contactDesc p{
 
+.contactDesc {
+  padding-top: 50px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
 }
-.messageMeBox{
+
+.contactDesc p {}
+
+.messageMeBox {
   width: 300px;
   margin: auto;
-margin-top: 50px;
-color: #0000005c;
+  margin-top: 50px;
+  color: #0000005c;
 }
-.messageMeBtn i{
+
+.messageMeBtn i {
   padding: 0;
   margin: 0;
   padding-right: 20px;
   color: #0000005c;
   font-size: 25px;
 }
+
 .messageMeBtn {
   text-align: center;
   width: 200px;
@@ -554,27 +640,32 @@ color: #0000005c;
   cursor: pointer;
   transition: all .2s linear;
 }
-.messageIcon{
+
+.messageIcon {
   font-size: 25px;
   margin-right: 10px;
 }
-.messageMeBtn:hover{
+
+.messageMeBtn:hover {
   background-color: rgba(238, 197, 74, 0.8);
   transition: all .2s linear;
 
 }
-.messageMeBtn span{
+
+.messageMeBtn span {
   font-size: 18px;
   font-weight: 100;
 }
-.messageMeBtn span a{
+
+.messageMeBtn span a {
   font-weight: 600;
 }
+
 /* ========================SECTION 8 ================= */
 
 
 
-.section0 .container{
+.section0 .container {
   max-width: 100%;
 }
 
@@ -582,217 +673,252 @@ color: #0000005c;
 
 
 
-  
-  
-  /* ....................................NAVBAR */
-  
-  .navbar-nav  .nav-item{
-    padding: 10px;
-    padding-left: 0px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 900;
-    width: 40%;
-    color: #fff;
+
+
+/* ....................................NAVBAR */
+
+.navbar-nav .nav-item {
+  padding: 10px;
+  padding-left: 0px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  width: 40%;
+  color: #fff;
 }
-.navbar-nav  .nav-item a{
+
+.navbar-nav .nav-item a {}
+
+ul li.changeLang {
+  padding: 10px;
+  padding-left: 0px;
+  border-bottom: none;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navbarNavTablet {
+  width: 100%;
+}
+
+.menuToggle {
+  position: fixed;
+  background-color: rgba(0, 153, 164, 0.9);
+  padding: 10px;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 
 }
-  ul li.changeLang{
-    padding: 10px;
-    padding-left: 0px;
-    border-bottom: none;
-  }
-  .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .navbarNavTablet{
-    width: 100%;
-  }
-  .menuToggle {
-    position: fixed;
-    background-color: rgba(0, 153, 164, 0.9);
-    padding: 10px;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
+
+.close {
+  top: -200vh;
+  transition: all .4s cubic-bezier(1.000, -0.285, 0.000, 1.340);
+  ;
+}
+
+.open {
+  top: 0px;
+  transition: all .4s cubic-bezier(1.000, -0.285, 0.000, 1.340);
+  ;
 
 }
-  .close{
-    top: -200vh;
-    transition: all .4s cubic-bezier(1.000, -0.285, 0.000, 1.340);;
-  }
-  .open{
-    top: 0px;
-    transition: all .4s cubic-bezier(1.000, -0.285, 0.000, 1.340);;
-  
-  }
-  .nav-link:hover{
-    border: none;
-  }
-  .navbar-nav  .nav-item:hover{
-    background-color: rgba(0, 0, 0, 0.06);
-  }
 
-  
-  /* humberger ===================                   */
+.nav-link:hover {
+  border: none;
+}
 
-  .humbergerDiv {
-    width: 55px;
-    height: 50px;
-    z-index: 101;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    border-radius: 5px;
-    overflow: hidden;
-    cursor: pointer;
-  }
-  .navbar {
+.navbar-nav .nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+/* humberger ===================                   */
+
+.humbergerDiv {
+  width: 55px;
+  height: 50px;
+  z-index: 101;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.navbar {
   justify-content: center;
   position: relative;
-  }
-  .menuBtnEn {
-    width: 35px;
-    height: 35px;
-    background-color: transparent;
-    border: none;
-    position: relative;
-    top: 8px;
-    right: 15%;
-    cursor: pointer;
-  }
-  .lines{
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    position: absolute;
-  }
-  .line1{
-    top: 8px;
-    transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-  
-  }
-  .line2{
-    transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-    
-  }
-  .line3{
-    top:28px;
-    transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-  
-  }
-  .line11 {
-    top: 18px;
-    transform: rotate(400deg);
-    top: 18px;
-    transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-  
-  }
-  .line22{
-    transition: all .4s .3s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-    right: -100px
-  }
-  .line33{
-    top: 18px;
-    transform: rotate(-400deg);
-    top: 18px;
-    transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-  
-  }
-  .backDrop {
-    visibility: hidden;
-    z-index: -1;
-    transition: all 4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-    
-  }
-  .backDropOpen{
-    position: absolute;
-    width: 100%;
-    height: 1000vh;
-    background-color: #00000057;
-    top: 0px;
-    z-index: 99;
-    visibility: visible;
-    transition: all 4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
-  }
-  .nav-link , .nav-link:hover{
-    border: none;
-  }
-  
-  
-  
-    .downloadLinks{
-      flex-direction: column;
-    }
-    .appStore, .googlePlay {
-      width: 90%;
-      margin: 20px 0px;
-    }
-    .aboutUsDownloadDiv {
-      width: 90%;
-    }
-    .svg-inline--fa.fa-w-16 , .svg-inline--fa.fa-w-14 , .svg-inline--fa.fa-w-9 , .svg-inline--fa.fa-w-18 , .svg-inline--fa.fa-w-15{
-      width: 35px;
-    }
-    .footerIcon{
-      height: 35px;
-      background-color: #fff;
-      color: #333;
-      border-radius: 5px;
-      padding: 8px;
-      margin: 0px 10px;
-      cursor: pointer;
-      transition: all .2s linear;
-    }
-    .footerIcon:hover{
-      color: #ad344c;
-      transition: all .2s linear;
-    }
+}
+
+.menuBtnEn {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  top: 8px;
+  right: 15%;
+  cursor: pointer;
+}
+
+.lines {
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.line1 {
+  top: 8px;
+  transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+
+}
+
+.line2 {
+  transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+
+}
+
+.line3 {
+  top: 28px;
+  transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+
+}
+
+.line11 {
+  top: 18px;
+  transform: rotate(400deg);
+  top: 18px;
+  transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+
+}
+
+.line22 {
+  transition: all .4s .3s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+  right: -100px
+}
+
+.line33 {
+  top: 18px;
+  transform: rotate(-400deg);
+  top: 18px;
+  transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+
+}
+
+.backDrop {
+  visibility: hidden;
+  z-index: -1;
+  transition: all 4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+
+}
+
+.backDropOpen {
+  position: absolute;
+  width: 100%;
+  height: 1000vh;
+  background-color: #00000057;
+  top: 0px;
+  z-index: 99;
+  visibility: visible;
+  transition: all 4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
+}
+
+.nav-link,
+.nav-link:hover {
+  border: none;
+}
 
 
 
-    .footer {
-      flex-direction: row-reverse;
-      align-items: center;
-      padding: 30px 40px 0px;
-      display: flex;
-      justify-content: space-between;
-      background-color: #333;
-  }
+.downloadLinks {
+  flex-direction: column;
+}
 
-    .footer img {
-      width: 150px;
-  }
-  .socialIcon{
-    padding: 20px 0px 30px;
-  }
-.socialIcon p i{
+.appStore,
+.googlePlay {
+  width: 90%;
+  margin: 20px 0px;
+}
+
+.aboutUsDownloadDiv {
+  width: 90%;
+}
+
+.svg-inline--fa.fa-w-16,
+.svg-inline--fa.fa-w-14,
+.svg-inline--fa.fa-w-9,
+.svg-inline--fa.fa-w-18,
+.svg-inline--fa.fa-w-15 {
+  width: 35px;
+}
+
+.footerIcon {
+  height: 35px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0px 10px;
+  cursor: pointer;
+  transition: all .2s linear;
+}
+
+.footerIcon:hover {
+  color: #ad344c;
+  transition: all .2s linear;
+}
+
+
+
+.footer {
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 30px 40px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+}
+
+.footer img {
+  width: 150px;
+}
+
+.socialIcon {
+  padding: 20px 0px 30px;
+}
+
+.socialIcon p i {
   background-color: #f0f0f0;
-    margin: 0px 5px;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    border-radius: 5px;
-    line-height: 21px;
+  margin: 0px 5px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 21px;
 }
 
 
 /* ===============================SEEKER ===================== */
 
-.sectionX{
+.sectionX {
   position: relative;
 }
-.seeker{
+
+.seeker {
   top: 84vh;
   width: 16vh;
   height: 16vh;
@@ -801,10 +927,12 @@ color: #0000005c;
   position: absolute;
   cursor: pointer;
 }
-.seeker:hover{
+
+.seeker:hover {
   background-color: #333333e1;
 }
-.seekerLines{
+
+.seekerLines {
   width: 4vh;
   height: 0.7vh;
   background-color: #fff;
@@ -812,21 +940,24 @@ color: #0000005c;
   right: 0;
   border-radius: 5px;
 }
-.seekerLine1{
+
+.seekerLine1 {
   top: 8vh;
   right: 7.3vh;
   transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
   transform: rotate(45deg);
 
 }
-.seekerLine2{
+
+.seekerLine2 {
   transition: all .4s cubic-bezier(0.000, 0.950, 0.000, 0.990);
   transform: rotate(-45deg);
   top: 8vh;
   right: 5vh;
-  
+
 }
-.seekerMenu{
+
+.seekerMenu {
   position: fixed;
   background-color: #333;
   color: #fff;
@@ -834,18 +965,20 @@ color: #0000005c;
   box-shadow: 0px 0px 13px -3px #000000d9;
 }
 
-.closeSeeker{
+.closeSeeker {
   top: -100vh;
   right: 40px;
   transition: all .4s linear;
 }
-.openSeeker{
+
+.openSeeker {
   top: 10vh;
   right: 40px;
   transition: all .4s linear;
 
 }
-.seekerLi{
+
+.seekerLi {
   width: 16vh;
   height: 16vh;
   text-align: center;
@@ -854,7 +987,8 @@ color: #0000005c;
   cursor: pointer;
   position: relative;
 }
-.seekerLi a{
+
+.seekerLi a {
   position: absolute;
   top: 0;
   right: 0;
@@ -862,48 +996,59 @@ color: #0000005c;
   bottom: 0;
   font-weight: 600
 }
-.seekerLi:hover{
+
+.seekerLi:hover {
   background-color: #0099A4;
 }
-.desktop{
+
+.desktop {
   display: block;
 }
-.tablet{
+
+.tablet {
   display: none;
 }
- /* CONTACT US ......................................................................... */
 
- .contactUs .container{
+/* CONTACT US ......................................................................... */
+
+.contactUs .container {
   width: 700px;
 }
 
- .contactDesc{
+.contactDesc {
   text-align: center;
- }
- .contactDesc h1 {
+}
+
+.contactDesc h1 {
   color: #fff;
   margin: 50px;
- }
- .myLine{
+}
+
+.myLine {
   width: 100%;
   height: 1px;
   background-color: #247e86;
   margin: 50px 0px;
- }
- .contactDesc p{
+}
+
+.contactDesc p {
   line-height: 30px;
- }
- .descSpan1 {
-   color: #222;
-   font-weight: 900;
- }
-.descSpan2{
+}
+
+.descSpan1 {
+  color: #222;
+  font-weight: 900;
+}
+
+.descSpan2 {
   color: #333;
 }
- .contactInputs{
-text-align: center;
- }
- .contactInput{
+
+.contactInputs {
+  text-align: center;
+}
+
+.contactInput {
   width: 550px;
   height: 55px;
   margin: 20px 0px;
@@ -912,8 +1057,9 @@ text-align: center;
   color: #fff;
   border-radius: 5px;
   padding-left: 10px;
- }
- .textArea{
+}
+
+.textArea {
   width: 550px;
   min-height: 200px;
   margin: 20px 0px;
@@ -923,29 +1069,31 @@ text-align: center;
   border-radius: 5px;
   padding: 50px 10px 10px 10px;
   resize: none;
- }
- .contactInput::placeholder , .textArea::placeholder {
-   color: #fff;
- }
- .checkBoxSend{
+}
+
+.contactInput::placeholder,
+.textArea::placeholder {
+  color: #fff;
+}
+
+.checkBoxSend {
   display: flex;
   justify-content: space-between;
   width: 700px;
   align-items: baseline;
   padding: 0px 75px 80px
- }
- .checkBoxSend button{
+}
 
- }
- .checkBoxSend input {
+.checkBoxSend button {}
 
- }
- .checkBoxSend label{
+.checkBoxSend input {}
+
+.checkBoxSend label {
   font-size: 11px;
   font-weight: 900;
- }
+}
 
- .myCheck {
+.myCheck {
   display: block;
   position: relative;
   padding-left: 35px;
@@ -965,26 +1113,26 @@ text-align: center;
 
 /* Create a custom checkbox */
 .checkmark {
-    position: absolute;
-    top: -6px;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #0000;
-    border: 1px solid #fff;
-    border-radius: 5px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #0000;
+  border: 1px solid #fff;
+  border-radius: 5px;
   transition: all .2s linear;
 
 }
 
 /* On mouse-over, add a grey background color */
-.myCheck:hover input ~ .checkmark {
+.myCheck:hover input~.checkmark {
   background-color: #00000040;
   transition: all .2s linear;
 }
 
 /* When the checkbox is checked, add a blue background */
-.myCheck input:checked ~ .checkmark {
+.myCheck input:checked~.checkmark {
   background-color: #2196F300;
 }
 
@@ -996,7 +1144,7 @@ text-align: center;
 }
 
 /* Show the checkmark when checked */
-.myCheck input:checked ~ .checkmark:after {
+.myCheck input:checked~.checkmark:after {
   display: block;
 }
 
@@ -1013,7 +1161,7 @@ text-align: center;
   transform: rotate(45deg);
 }
 
-.sendMessage{
+.sendMessage {
   width: 200px;
   padding: 10px 20px;
   border-radius: 30px;
@@ -1026,26 +1174,54 @@ text-align: center;
   transition: all .2s linear;
   background-color: #18686E
 }
-.sendMessage:hover{
+
+.sendMessage:hover {
   border: 2px solid rgba(24, 104, 110, 0.8);
   background-color: rgba(24, 104, 110, 0.8);
   color: #ffffff;
   transition: all .2s linear;
 }
+
 @-webkit-keyframes AnimationName {
-  0%{background-position:0% 92%}
-  50%{background-position:100% 9%}
-  100%{background-position:0% 92%}
+  0% {
+    background-position: 0% 92%
+  }
+
+  50% {
+    background-position: 100% 9%
+  }
+
+  100% {
+    background-position: 0% 92%
+  }
 }
+
 @-moz-keyframes AnimationName {
-  0%{background-position:0% 92%}
-  50%{background-position:100% 9%}
-  100%{background-position:0% 92%}
+  0% {
+    background-position: 0% 92%
+  }
+
+  50% {
+    background-position: 100% 9%
+  }
+
+  100% {
+    background-position: 0% 92%
+  }
 }
-@keyframes AnimationName { 
-  0%{background-position:0% 92%}
-  50%{background-position:100% 9%}
-  100%{background-position:0% 92%}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 92%
+  }
+
+  50% {
+    background-position: 100% 9%
+  }
+
+  100% {
+    background-position: 0% 92%
+  }
 }
 
 
@@ -1061,32 +1237,36 @@ text-align: center;
 }
 
 .rect:after {
-     content: "";
-    display: block;
-    background: #CAD2DD;
-    height: 450px;
-    width: 8000px;
-    position: absolute;
-    z-index: 1;
-    bottom: -40%;
-    left: 50%;
-    margin-left: -4000px;
-    -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg); 
+  content: "";
+  display: block;
+  background: #CAD2DD;
+  height: 450px;
+  width: 8000px;
+  position: absolute;
+  z-index: 1;
+  bottom: -40%;
+  left: 50%;
+  margin-left: -4000px;
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
 }
+
 /* ============================================== F A  style */
 
 
-.rtl{
+.rtl {
   direction: rtl;
 }
-.rowReverse{
+
+.rowReverse {
   flex-direction: row-reverse;
 }
-.section3 .flexStart{
+
+.section3 .flexStart {
   justify-content: flex-start;
 }
-.sendFa{
+
+.sendFa {
   padding: 15px;
   border: none;
   border-radius: 30px 0px 0px 30px;
@@ -1096,22 +1276,26 @@ text-align: center;
   cursor: pointer;
   transition: all .2s linear;
 }
-.sendFa:hover{
-background-color: #333333ad;
-transition: all .2s linear;
+
+.sendFa:hover {
+  background-color: #333333ad;
+  transition: all .2s linear;
 
 }
-.sendEmailFa{
+
+.sendEmailFa {
   display: flex;
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
-.emailFa{
+
+.emailFa {
   width: 300px;
   padding: 15px;
   border: none;
   border-radius: 0px 10px 10px 0px;
 }
-.contactInputFa{
+
+.contactInputFa {
   width: 550px;
   height: 55px;
   margin: 20px 0px;
@@ -1120,8 +1304,9 @@ transition: all .2s linear;
   color: #fff;
   border-radius: 5px;
   padding-right: 10px;
- }
- .textAreaFa{
+}
+
+.textAreaFa {
   width: 550px;
   min-height: 150px;
   margin: 20px 0px;
@@ -1131,10 +1316,13 @@ transition: all .2s linear;
   border-radius: 5px;
   padding: 10px;
   resize: none;
- }
- .contactInputFa::placeholder , .textAreaFa::placeholder {
+}
+
+.contactInputFa::placeholder,
+.textAreaFa::placeholder {
   color: #fff;
 }
+
 .myCheckFa {
   display: block;
   position: relative;
@@ -1143,9 +1331,10 @@ transition: all .2s linear;
   cursor: pointer;
   font-size: 22px;
   user-select: none;
-  color:#fff;
+  color: #fff;
   font-size: 12px;
 }
+
 .checkmarkFa {
   position: absolute;
   top: -4px;
@@ -1156,11 +1345,13 @@ transition: all .2s linear;
   border: 1px solid #fff;
   border-radius: 5px;
 }
+
 .myCheckFa input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
+
 /* Hide the browser's default checkbox */
 .myCheckFa input {
   position: absolute;
@@ -1171,13 +1362,13 @@ transition: all .2s linear;
 /* Create a custom checkbox */
 
 /* On mouse-over, add a grey background color */
-.myCheckFa:hover input ~ .checkmarkFa {
+.myCheckFa:hover input~.checkmarkFa {
   background-color: #00000040;
   transition: all .2s linear;
 }
 
 /* When the checkbox is checked, add a blue background */
-.myCheckFa input:checked ~ .checkmarkFa {
+.myCheckFa input:checked~.checkmarkFa {
   background-color: #2196F300;
 }
 
@@ -1189,7 +1380,7 @@ transition: all .2s linear;
 }
 
 /* Show the checkmark when checked */
-.myCheckFa input:checked ~ .checkmarkFa:after {
+.myCheckFa input:checked~.checkmarkFa:after {
   display: block;
 }
 
@@ -1206,424 +1397,527 @@ transition: all .2s linear;
   transform: rotate(45deg);
 }
 
-textarea:focus, input:focus{
-    outline: none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
-@media only screen and (max-width: 1024px){
-  .desktop{
+@media only screen and (max-width: 1024px) {
+  .desktop {
     display: none;
   }
-  .tablet{
+
+  .tablet {
     display: block;
   }
-  .arasH1{
+
+  .arasH1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
   }
-  .arasH1 h1{
-    padding:0px 3vh;
+
+  .arasH1 h1 {
+    padding: 0px 3vh;
   }
-.section1Desc{
-  width: 100%;
-  height: 100vh;
-  padding: 4vh;
-  padding-top: 220px;
-}
+
+  .section1Desc {
+    width: 100%;
+    height: 100vh;
+    padding: 4vh;
+    padding-top: 220px;
+  }
+
   .section1 h1 {
     font-size: 8vh;
     color: #fff;
     display: inline;
-}
-.section1Pic .img {
-  width: 150px;
-  height: 150px;
-  background-size: 100%;
-  background-image: url(/static/media/aras.90d75caa.png);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  margin: auto;
-}
-.section1Pic{
-  position: absolute;
-  top: 40px;
-  border-radius: 50%;
-}
-.section1 .container{
+  }
 
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
-  height: 100vh;
-  align-items: center;
+  .section1Pic .img {
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    background-image: url(/static/media/aras.90d75caa.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+
+  .section1Pic {
+    position: absolute;
+    top: 40px;
+    border-radius: 50%;
+  }
+
+  .section1 .container {
+
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 100vh;
+    align-items: center;
+  }
+
+  .sadPlusNumber {
+    position: relative;
+    padding: 0px;
+    font-size: 115px;
+    text-align: left;
+    width: 500px;
+    font-weight: 900;
+    margin-left: 50px;
+  }
+
+  .sadPlus span {
+    font-size: 60px;
+    top: -25px;
+    left: 200px;
+    position: absolute;
+    font-weight: 900;
+  }
+
+  .whatCanImg p img {
+    width: 50%;
+  }
+
+  .whatCanImg p {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+  }
+
+  .whatCan:nth-child(even),
+  .whatCan:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .whatCanImg {
+    width: 100%;
+  }
+
+  .whatCanDesc h1 {
+    padding-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .whatCanDesc p {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .whatCanDesc {
+    width: 100%;
+    margin: auto;
+  }
+
+  .whatCan:nth-child(odd) .whatCanImg {
+    display: unset;
+  }
+
+  .section4Title p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .seeker {
+    top: 88vh;
+    width: 12vh;
+    height: 12vh;
+  }
+
+  .seekerLine1 {
+    top: 5.9vh;
+    right: 5.6vh;
+  }
+
+  .seekerLine2 {
+    top: 5.9vh;
+    right: 3.1vh;
+  }
 }
-.sadPlusNumber {
-  position: relative;
-  padding: 0px;
-  font-size: 115px;
-  text-align: left;
-  width: 500px;
-  font-weight: 900;
-  margin-left: 50px;
-}
-.sadPlus span {
-  font-size: 60px;
-  top: -25px;
-  left: 200px;
-  position: absolute;
-  font-weight: 900;
-}
-.whatCanImg p img {
-  width: 50%;
-}
-.whatCanImg p {
-  width: 250px;
-  height: 250px;
-  margin: auto;
-}
-.whatCan:nth-child(even) , .whatCan:nth-child(odd) {
-  flex-direction: column;
-}
-.whatCanImg {
-  width: 100%;
-}
-.whatCanDesc h1 {
-  padding-bottom: 20px;
-  font-size: 36px;
-  text-align: center;
-  margin-top: 50px;
-}
-.whatCanDesc p {
-  font-size: 28px;
-  width: 100%;
-  text-align: center;
-}
-.whatCanDesc {
-  width: 100%;
-  margin: auto;
-}
-.whatCan:nth-child(odd) .whatCanImg{
-  display: unset;
-}
-.section4Title p {
-  width: 100%;
-  text-align: center;
-}
-.seeker {
-  top: 88vh;
-  width: 12vh;
-  height: 12vh;
-}
-.seekerLine1 {
-  top: 5.9vh;
-  right: 5.6vh;
-}
-.seekerLine2 {
-  top: 5.9vh;
-  right: 3.1vh;
-}
-}
-@media only screen and (max-width: 900px){
+
+@media only screen and (max-width: 900px) {
   .educationDesc div:nth-child(1) {
     width: 100%;
   }
+
   .educationDesc div:nth-child(2) {
-width: 100%;
-text-align: left;
+    width: 100%;
+    text-align: left;
   }
+
   .educationDesc {
-flex-direction: column;
+    flex-direction: column;
 
   }
+
   .educationDesc div:nth-child(2) h1 {
     padding-top: 40px;
     text-align: center;
   }
+
   .educationDescPic {
     width: 100px;
     height: 100px;
   }
+
   .educationDesc div:nth-child(1) h1 {
     font-size: 32px;
-}
-.projectBox div p {
-  width: 80%;
-}
-.projectBox div {
+  }
+
+  .projectBox div p {
+    width: 80%;
+  }
+
+  .projectBox div {
     flex-direction: column;
-}
-.educationDesc div:nth-child(2) > span{
-  text-align: left;
-}
-.educationIcon i {
-  padding-bottom: 5px;
-}
-.educationDesc div:nth-child(2) p{
-  padding: 0;
+  }
+
+  .educationDesc div:nth-child(2)>span {
+    text-align: left;
+  }
+
+  .educationIcon i {
+    padding-bottom: 5px;
+  }
+
+  .educationDesc div:nth-child(2) p {
+    padding: 0;
     font-weight: 300;
     line-height: 1.5;
-}
-.educationDesc div:nth-child(2) p ul li {
-  font-weight: 300;
-}
-.section4 .container , .section2 .container , .section3 .container , .section5 .container , .section6 .container , .section7 .container {
-  padding: 150px 30px;
-} 
-.sadPlusNumber {
-  margin-left: 30px;
-}
+  }
+
+  .educationDesc div:nth-child(2) p ul li {
+    font-weight: 300;
+  }
+
+  .section4 .container,
+  .section2 .container,
+  .section3 .container,
+  .section5 .container,
+  .section6 .container,
+  .section7 .container {
+    padding: 150px 30px;
+  }
+
+  .sadPlusNumber {
+    margin-left: 30px;
+  }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
 
   .section1About {
     padding: 5vh 0px 0px;
-}
-.seekerLine2 {
-  top: 5vh;
-  right: 2.5vh;
-}
-.seekerLine1 {
-  top: 5vh;
-  right: 4.4vh;
-}
-.seekerLines {
-  width: 3vh;
-  height: 0.5vh;
-}
-.seeker {
-  top: 90vh;
-  width: 10vh;
-  height: 10vh;
-}
-.abilitiesTitle p {
-  width: 100%;
-}
-.project p {
-  width: 100%;
-}
-.contact p {
-  width: 100%;
-}
-.contactUs .container {
-  width: 90%;
-}
-.myLine {
-  width: 90%;
-  margin: 50px auto;
-  background-color: #9E2B36;
-}
-.contactInputFa , .contactInput {
+  }
+
+  .seekerLine2 {
+    top: 5vh;
+    right: 2.5vh;
+  }
+
+  .seekerLine1 {
+    top: 5vh;
+    right: 4.4vh;
+  }
+
+  .seekerLines {
+    width: 3vh;
+    height: 0.5vh;
+  }
+
+  .seeker {
+    top: 90vh;
+    width: 10vh;
+    height: 10vh;
+  }
+
+  .abilitiesTitle p {
+    width: 100%;
+  }
+
+  .project p {
+    width: 100%;
+  }
+
+  .contact p {
+    width: 100%;
+  }
+
+  .contactUs .container {
     width: 90%;
-}
-.textAreaFa , .textArea {
-  width: 90%;
-}
-.checkBoxSend {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px 0px 80px;
+  }
+
+  .myLine {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #9E2B36;
+  }
+
+  .contactInputFa,
+  .contactInput {
+    width: 90%;
+  }
+
+  .textAreaFa,
+  .textArea {
+    width: 90%;
+  }
+
+  .checkBoxSend {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 80px;
+  }
+
+  .sendMessage {
+    width: 100%;
+    margin-top: 15px;
+  }
 }
 
-.sendMessage {
-  width: 100%;
-  margin-top: 15px;
-}
-}
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .section1 p {
     font-size: 2.5vh;
     line-height: 3vh;
     color: #fff;
-}
-.section1 h1 {
-  font-size: 6vh;
-  color: #fff;
-  display: inline;
-}
-.section1About {
-  padding: 4vh 0px 0px;
+  }
+
+  .section1 h1 {
+    font-size: 6vh;
+    color: #fff;
+    display: inline;
+  }
+
+  .section1About {
+    padding: 4vh 0px 0px;
+  }
+
+  .section2 .container {
+    flex-direction: column;
+  }
+
+  .projectComplete,
+  .sadPlus {
+    width: 100%;
+  }
+
+  .sadPlusNumber {
+    position: relative;
+    padding: 0px;
+    font-size: 120px;
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    margin-left: 0px;
+  }
+
+  .sadPlus span {
+    left: 40%;
+  }
+
+  .projectComplete p {
+    text-align: center;
+  }
+
+  .whatCanImg p {
+    width: 220px;
+    height: 220px;
+    margin: auto;
+  }
+
+  .whatCanImg p img {
+    width: 50%;
+  }
+
+  .section3 .container {
+    padding: 150px 50px;
+  }
+
+  .educationDescPic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .section4 .container {
+    padding: 150px 50px;
+  }
+
+  .skills {
+    flex-direction: column;
+  }
+
+  .skills div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .skillDesc {
+    font-size: 13px;
+    padding: 20px;
+  }
+
+  .tooltipBox {
+    width: 40%;
+  }
+
+  .abilitiesLangBox p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    flex-direction: column-reverse;
+    padding: 30px;
+  }
+
+  .socialIcon {
+    padding: 30px 0px;
+  }
+
+  .section5 .container {
+    padding: 150px 50px;
+  }
+
+  .section6 .container {
+    padding: 150px 50px;
+  }
+
+  .section7 .container {
+    padding: 150px 50px;
+  }
+
+  .messageMeBox {
+    width: 100%;
+  }
+
+  .section1 h1 {
+    font-size: 5vh;
+  }
+
+  .sectionIcons {
+    padding: 5vh 1vh;
+  }
 }
 
-.section2 .container {
-  flex-direction: column;
-}
-
-.projectComplete, .sadPlus {
-  width: 100%;
-}
-.sadPlusNumber {
-  position: relative;
-  padding: 0px;
-  font-size: 120px;
-  text-align: center;
-  width: 100%;
-  padding-right: 15px;
-  margin-left: 0px;
-}
-.sadPlus span {
-  left: 40%;
-}
-.projectComplete p  {
-  text-align: center;
-}
-.whatCanImg p {
-  width: 220px;
-  height: 220px;
-  margin: auto;
-}
-.whatCanImg p img {
-  width: 50%;
-}
-.section3 .container {
-  padding: 150px 50px;
-}
-.educationDescPic {
-  width: 100px;
-  height: 100px;
-}
-.section4 .container {
-  padding: 150px 50px;
-}
-.skills {
-  flex-direction: column;
-}
-.skills div {
-  width: 100%;
-  text-align: center;
-}
-.skillDesc {
-  font-size: 13px;
-  padding: 20px;
-}
-.tooltipBox {
-  width: 40%;
-}
-.abilitiesLangBox p {
-  width: 100%;
-  text-align: center;
-}
-
-.footer {
-  flex-direction: column-reverse;
-  padding: 30px ;
-}
-.socialIcon {
-  padding: 30px 0px;
-}
-.section5 .container {
-  padding: 150px 50px;
-}
-.section6 .container {
-  padding: 150px 50px;
-}
-.section7 .container {
-  padding: 150px 50px;
-}
-.messageMeBox {
-  width: 100%;
-}
-.section1 h1 {
-  font-size: 5vh;
-}
-.sectionIcons {
-  padding: 5vh 1vh;
-}
-}
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 450px) {
 
   .seekerLine2 {
     top: 5.6vh;
     right: 2.8vh;
   }
+
   .seekerLine1 {
     top: 5.6vh;
     right: 4.6vh;
-}
-.seeker {
-  top: 90vh;
-  width: 10vh;
-  height: 10vh;
-  right: 40px;
-  background-color: #333;
-  position: absolute;
-  cursor: pointer;
+  }
+
+  .seeker {
+    top: 90vh;
+    width: 10vh;
+    height: 10vh;
+    right: 40px;
+    background-color: #333;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .section1Desc {
+    padding: 2vh;
+    padding-top: 9vh;
+  }
+
+  .sectionIcons {
+    padding: 4vh 1vh;
+  }
+
+  .whatCanImg p {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .educationDescPic {
+    width: 100px;
+    height: 100px;
+  }
+
+  .section1 .container {
+    padding: 150px 20px;
+
+  }
+
+  .section2 .container,
+  .section2 .container,
+  .section3 .container,
+  .section4 .container,
+  .section5 .container,
+  .section6 .container,
+  .section7 .container {
+    padding: 50px 20px;
+  }
+
+  .tooltipBox {
+    width: 60%;
+    margin: 10px 0px;
+  }
+
+  .logo span {
+    text-align: center;
+    display: block;
+    padding: 5px 0px;
+  }
+
+  .sadPlus span {
+    left: 60%;
+  }
+
+  .section3Title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .whatCanDesc h1 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .whatCanDesc p {
+    font-size: 21px;
+    font-weight: 300;
+  }
+
+  .projectBox div p {
+    margin: 30px;
+  }
+
+  .educationDesc {
+    padding: 0px 0px 50px;
+  }
+
+  .educationDescProject>span {
+    display: flex;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6f6f6f;
+    padding: 20px 0px 0px;
+    justify-content: space-between;
+  }
 }
 
-.section1Desc {
-  padding: 2vh;
-  padding-top: 9vh;
-}
-.sectionIcons {
-  padding: 4vh 1vh;
-}
-.whatCanImg p {
-  width: 200px;
-  height: 200px;
-  margin: auto;
-}
-.educationDescPic {
-  width: 100px;
-  height: 100px;
-}
-.section1 .container {
-  padding: 150px 20px;
+@media only screen and (max-width: 350px) {
 
-}
-.section2 .container , .section2 .container , .section3 .container , .section4 .container ,
-.section5 .container , .section6 .container , .section7 .container{
-  padding: 50px 20px;
-}
-.tooltipBox {
-  width: 60%;
-  margin: 10px 0px;
-}
-.logo span{
-  text-align: center;
-  display: block;
-  padding: 5px 0px;
-}
-.sadPlus span {
-  left: 60%;
-}
-.section3Title {
-  font-size: 50px;
-  font-weight: 600;
-}
-.whatCanDesc h1 {
-  font-size: 30px;
-  font-weight: 300;
-}
-.whatCanDesc p {
-  font-size: 21px;
-  font-weight: 300;
-}
-.projectBox div p {
-  margin: 30px;
-}
-.educationDesc {
-  padding: 0px 0px 50px;
-}
-.educationDescProject > span{
-  display: flex;
-  line-height: 20px;
-  font-size: 14px;
-  font-weight: 300;
-  color: #6f6f6f;
-  padding: 20px 0px 0px;
-  justify-content: space-between;
-}
-}
-
-@media only screen and (max-width: 350px){
-  
-  .educationDescProject > span{
+  .educationDescProject>span {
     flex-direction: column;
   }
 }

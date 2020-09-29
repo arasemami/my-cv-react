@@ -21,7 +21,7 @@ import visharLogo from '../Assets/images/vishar.png';
 
 library.add(fas, faMapMarkerAlt, faGlobe)
 
-class Com4 extends Component {
+class EducationComponent extends Component {
 
     render() {
 
@@ -541,4 +541,4 @@ class Com4 extends Component {
     }
 }
 
-export default Com4;
+export default EducationComponent;

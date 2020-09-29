@@ -20,16 +20,16 @@ class Com1 extends Component{
                             <div className="section1Desc">
                                 <div className="desktop">
                                     <h1>ARAS </h1>
-                                    <h1> EMAMI</h1>
+                                    <h1>EMAMI</h1>
                                 </div>
                                 <div className="tablet arasH1" >
                                     <h1>ARAS </h1>
-                                    <h1> EMAMI</h1>
+                                    <h1>EMAMI</h1>
                                 </div>
                                 <p className="section1About" >About me</p>
                                 <br/>
                                 <p>
-                                I'm Iman Emamihamzekolaei (nickname: ARAS), 28 years old software engineer, living in Turkey, Ankara now. I was born and Raised in Iran, Tehran and move to Turkey in early 2013. I’m currently working at Advensis where I do all things JavaScript.
+                                I'm Iman Emami (nickname: ARAS), 29 years old software engineer, living in Tehran now. I was born and Raised in Iran. I’m currently working at Zino where I do all things JavaScript & TypeScript.
                                 </p>
                                 <p>
                                 You can follow me on <a href="https://twitter.com/arasemami">Twitter</a> & Instagram or check out my story on <a href="https://stackoverflow.com/users/story/8890065"> Stack Overflow</a>.

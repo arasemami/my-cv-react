@@ -1,11 +1,11 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 
 
-class Com2 extends Component{
+class Com2 extends Component {
 
-    render(){
+    render() {
 
-        return(
+        return (
 
             <div>
                 <div className="section2 bgColor5">
