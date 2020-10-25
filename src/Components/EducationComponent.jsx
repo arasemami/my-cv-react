@@ -118,137 +118,6 @@ class EducationComponent extends Component {
 
                             <div className="educationDesc">
                                 <div className="educationDescName">
-                                    <h1 className="color1">ARASICO</h1>
-                                    <span>2005 - 2010</span>
-                                    <p className="educationDescPic">
-                                        <img alt="ARASICO" src={arasico} />
-                                    </p>
-                                </div>
-                                <div className="educationDescProject">
-                                    <h1>Junior Software and Web Developer</h1>
-                                    <p>It all started from here. At first, ARASICO was the developer team and after growing and Create more project It was officially established in 2008 as a software development company (Ara system). There I learned to apply my knowledge in Visual Basic, C#, SQL Server, network configuration and ASP.net. I designed and developed their web-based solutions. Like the online order system in 2006.</p>
-                                    <span className="educationIcon">
-                                        <span className="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
-                                            <a>Iran , Tehran</a>
-                                        </span>
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="#">www.arasico.com</a>
-                                        </span>
-
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="educationDesc">
-                                <div className="educationDescName">
-                                    <h1 className="color1">ZAGROT</h1>
-                                    <span>2010 - 2012</span>
-                                    <p className="educationDescPic">
-                                        <img alt="ZAGROT" src={zagrot} />
-                                    </p>
-                                </div>
-                                <div className="educationDescProject">
-                                    <h1> Web Developer</h1>
-                                    <p>
-                                        Zagrot is the digital marketing brand in the field of website design, internet marketing, and mobile services to private companies, brands, and organizations in recent years. I started working in the Zagrot in 2010. At Zagrot company we focused on web-based private projects. Our goal was to provide web-based systems for small and average businesses. Systems like the online store, Bulk SMS service, Real-Estate web and etc. I started working on web frameworks and libraries like javascript, Backbone, Lodash, Underscore, CSS3, Sass, HTML5, Bootstrap
-                        </p>
-                                    <span className="educationIcon">
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
-                                            <a>Iran , Tehran</a>
-                                        </span>
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.zagrot.com">www.zagrot.com</a>
-                                        </span>
-
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="educationDesc">
-                                <div className="educationDescName">
-                                    <h1 className="color1">STUDIO ONE</h1>
-                                    <span>2012 - 2013</span>
-                                    <p className="educationDescPic">
-                                        <img alt="STUDIO ONE" src={studioone} />
-                                    </p>
-                                </div>
-                                <div className="educationDescProject">
-                                    <h1>UI/UX Desginer & Front end developer</h1>
-                                    <p>
-                                        after found a great opportunity in Armenia, I started working for STUDIO ONE: a full-service internet agency. I developed a homemade CMS, CRM, and e-mail marketing system. The CMS was used for dozens of clients, as well as the e-mail marketing system. I also did a lot of custom-made websites and applications. I learned using PHP Laravel framework, javascript like Backbone.js, Jquery, underscore.js and ...
-                        </p>
-                                    <span className="educationIcon">
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
-                                            <a>Armenia, yerevan</a>
-                                        </span>
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.studio-one.am">www.studio-one.am</a>
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="educationDesc">
-                                <div className="educationDescName">
-                                    <h1 className="color1">ETGI GRUP</h1>
-                                    <span>2013 - 2014</span>
-                                    <p className="educationDescPic">
-                                        <img alt="ETGI GRUP" src={etgi} />
-                                    </p>
-                                </div>
-                                <div className="educationDescProject">
-                                    <h1>Front end Developer</h1>
-                                    <p>
-                                        ETGi Grup has a B2B service to helps clients how to use technology to make online education, training and video conferencing which enable education more efficient through the use of technology. I work with Typescript, AngularJS framework, Ionic, CSS/SASS and xamarin
-                        </p>
-                                    <span className="educationIcon">
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
-                                            <a>Turkey , Ankara</a>
-                                        </span>
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.etgigrup.com">www.etgigrup.com</a>
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="educationDesc">
-                                <div className="educationDescName">
-                                    <h1 className="color1">ADVENSIS</h1>
-                                    <span>2015 - 2016</span>
-                                    <p className="educationDescPic">
-                                        <img alt="ADVENSIS" src={advensis} />
-                                    </p>
-                                </div>
-                                <div className="educationDescProject">
-                                    <h1>UI/UX Designer and Front end developer</h1>
-                                    <p>
-                                        Advensis Engineering & Consultancy is an engineering company providing optimal solutions in Information Technology area needs, together with experienced and expert engineers and professional consultants.
-                        </p>
-                                    <span className="educationIcon">
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
-                                            <a>Turkey , Ankara</a>
-                                        </span>
-                                        <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
-                                            <a href="http://www.advensis.com.tr">www.advensis.com.tr</a>
-                                        </span>
-
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div className="educationDesc">
-                                <div className="educationDescName">
                                     <h1 className="color1">ADVENSIS</h1>
                                     <span>2016 - Present</span>
                                     <p className="educationDescPic">
@@ -287,6 +156,158 @@ class EducationComponent extends Component {
                                     </span>
                                 </div>
                             </div>
+                       
+
+                            <div className="educationDesc">
+                                <div className="educationDescName">
+                                    <h1 className="color1">ADVENSIS</h1>
+                                    <span>2015 - 2016</span>
+                                    <p className="educationDescPic">
+                                        <img alt="ADVENSIS" src={advensis} />
+                                    </p>
+                                </div>
+                                <div className="educationDescProject">
+                                    <h1>UI/UX Designer and Front end developer</h1>
+                                    <p>
+                                        Advensis Engineering & Consultancy is an engineering company providing optimal solutions in Information Technology area needs, together with experienced and expert engineers and professional consultants.
+                        </p>
+                                    <span className="educationIcon">
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <a>Turkey , Ankara</a>
+                                        </span>
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <a href="http://www.advensis.com.tr">www.advensis.com.tr</a>
+                                        </span>
+
+                                    </span>
+                                </div>
+                            </div>
+
+
+                            <div className="educationDesc">
+                                <div className="educationDescName">
+                                    <h1 className="color1">ETGI GRUP</h1>
+                                    <span>2013 - 2014</span>
+                                    <p className="educationDescPic">
+                                        <img alt="ETGI GRUP" src={etgi} />
+                                    </p>
+                                </div>
+                                <div className="educationDescProject">
+                                    <h1>Front end Developer</h1>
+                                    <p>
+                                        ETGi Grup has a B2B service to helps clients how to use technology to make online education, training and video conferencing which enable education more efficient through the use of technology. I work with Typescript, AngularJS framework, Ionic, CSS/SASS and xamarin
+                        </p>
+                                    <span className="educationIcon">
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <a>Turkey , Ankara</a>
+                                        </span>
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <a href="http://www.etgigrup.com">www.etgigrup.com</a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="educationDesc">
+                                <div className="educationDescName">
+                                    <h1 className="color1">STUDIO ONE</h1>
+                                    <span>2012 - 2013</span>
+                                    <p className="educationDescPic">
+                                        <img alt="STUDIO ONE" src={studioone} />
+                                    </p>
+                                </div>
+                                <div className="educationDescProject">
+                                    <h1>UI/UX Desginer & Front end developer</h1>
+                                    <p>
+                                        after found a great opportunity in Armenia, I started working for STUDIO ONE: a full-service internet agency. I developed a homemade CMS, CRM, and e-mail marketing system. The CMS was used for dozens of clients, as well as the e-mail marketing system. I also did a lot of custom-made websites and applications. I learned using PHP Laravel framework, javascript like Backbone.js, Jquery, underscore.js and ...
+                        </p>
+                                    <span className="educationIcon">
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <a>Armenia, yerevan</a>
+                                        </span>
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <a href="http://www.studio-one.am">www.studio-one.am</a>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="educationDesc">
+                                <div className="educationDescName">
+                                    <h1 className="color1">ZAGROT</h1>
+                                    <span>2010 - 2012</span>
+                                    <p className="educationDescPic">
+                                        <img alt="ZAGROT" src={zagrot} />
+                                    </p>
+                                </div>
+                                <div className="educationDescProject">
+                                    <h1> Web Developer</h1>
+                                    <p>
+                                        Zagrot is the digital marketing brand in the field of website design, internet marketing, and mobile services to private companies, brands, and organizations in recent years. I started working in the Zagrot in 2010. At Zagrot company we focused on web-based private projects. Our goal was to provide web-based systems for small and average businesses. Systems like the online store, Bulk SMS service, Real-Estate web and etc. I started working on web frameworks and libraries like javascript, Backbone, Lodash, Underscore, CSS3, Sass, HTML5, Bootstrap
+                        </p>
+                                    <span className="educationIcon">
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <a>Iran , Tehran</a>
+                                        </span>
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <a href="http://www.zagrot.com">www.zagrot.com</a>
+                                        </span>
+
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div className="educationDesc">
+                                <div className="educationDescName">
+                                    <h1 className="color1">ARASICO</h1>
+                                    <span>2005 - 2010</span>
+                                    <p className="educationDescPic">
+                                        <img alt="ARASICO" src={arasico} />
+                                    </p>
+                                </div>
+                                <div className="educationDescProject">
+                                    <h1>Junior Software and Web Developer</h1>
+                                    <p>It all started from here. At first, ARASICO was the developer team and after growing and Create more project It was officially established in 2008 as a software development company (Ara system). There I learned to apply my knowledge in Visual Basic, C#, SQL Server, network configuration and ASP.net. I designed and developed their web-based solutions. Like the online order system in 2006.</p>
+                                    <span className="educationIcon">
+                                        <span className="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <a>Iran , Tehran</a>
+                                        </span>
+                                        <span class="color1">
+                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <a href="#">www.arasico.com</a>
+                                        </span>
+
+                                    </span>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
+                       
                         </div>
                         <div className="career">
                             <div className="educationTitle">
