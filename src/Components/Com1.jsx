@@ -29,7 +29,8 @@ class Com1 extends Component{
                                 <p className="section1About" >About me</p>
                                 <br/>
                                 <p>
-                                I'm Iman Emami (nickname: ARAS), 29 years old software engineer, living in Tehran now. I was born and Raised in Iran. I’m currently working at Zino where I do all things JavaScript & TypeScript.
+                                I'm Iman Emamihamzekolaei (nickname: ARAS), 29 years old software engineer, More than 5 years of experience delivering tech solutions. Avid programmer and fast learner, I'm self-organized learning. Obsessed with detail and quality. Always trying to improve development and communication processes. I love simple and elegant solutions for every problem.
+I’m currently working at Zino Tech where I do all things JavaScript.
                                 </p>
                                 <p>
                                 You can follow me on <a href="https://twitter.com/arasemami">Twitter</a> & Instagram or check out my story on <a href="https://stackoverflow.com/users/story/8890065"> Stack Overflow</a>.
