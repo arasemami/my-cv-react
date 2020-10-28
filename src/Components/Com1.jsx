@@ -10,7 +10,6 @@ class Com1 extends Component{
     render(){
        
         return(
-
                 <div>
                     <div className="section1 bgColor1" >
                         <div className="container">
@@ -45,9 +44,7 @@ I’m currently working at Zino Tech where I do all things JavaScript.
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-
         );
     }
 }
