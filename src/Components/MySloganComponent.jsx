@@ -1,12 +1,10 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 
+class MySloganComponent extends Component {
 
-class Com2 extends Component{
+    render() {
 
-    render(){
-
-        return(
-
+        return (
             <div>
                 <div className="section2 bgColor5">
                     <div className="container" >
@@ -20,9 +18,8 @@ class Com2 extends Component{
                     </div>
                 </div>
             </div>
-
         );
     }
 }
 
-export default Com2;
+export default MySloganComponent;

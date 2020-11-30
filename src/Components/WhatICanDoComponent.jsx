@@ -1,12 +1,12 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import psd from './../Assets/images/psd.svg';
 import js from './../Assets/images/js.svg';
 
-class Com3 extends Component{
+class WhatICanDoComponent extends Component {
 
-    render(){
-       
-        return(
+    render() {
+
+        return (
 
             <div>
                 <div className="section3 bgColor3">
@@ -21,20 +21,20 @@ class Com3 extends Component{
                             <div className="whatCanDesc">
                                 <h1 className="color1" >Design what you want.</h1>
                                 <p>
-                                I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.
+                                    I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.
                                 </p>
                             </div>
                         </div>
                         <div className="whatCan whatCanEven" >
                             <div className="whatCanImg whatCanImgRight">
-                                <p  className="bgColor5">
+                                <p className="bgColor5">
                                     <img alt="js" src={js} />
                                 </p>
                             </div>
                             <div className="whatCanDesc" >
                                 <h1 className="color1">Develop what you need.</h1>
                                 <p>
-                                I'm a developer, so I know how to create your website and app to run across devices using the latest technologies available.
+                                    I'm a developer, so I know how to create your website and app to run across devices using the latest technologies available.
                                 </p>
                             </div>
                         </div>
@@ -46,4 +46,4 @@ class Com3 extends Component{
     }
 }
 
-export default Com3;
+export default WhatICanDoComponent;

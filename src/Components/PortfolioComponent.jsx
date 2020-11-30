@@ -1,51 +1,47 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import simple from '../Assets/images/simple.png';
 import vilaapp from '../Assets/images/vilaapp.png';
-import justkish from '../Assets/images/justkish.png';
 import bebeloo from '../Assets/images/bebeloo.png';
-class Com6 extends Component{
+import justkish from '../Assets/images/justkish.png';
 
-    render(){
+class PortfolioComponent extends Component {
 
-        return(
-
+    render() {
+        return (
             <div>
                 <div className="section6 bgColor5 ">
                     <div className="container" >
                         <div className="project" >
                             <h1 className="color1" >Projects</h1>
-                            <p>
-“There is enough space for everyone in the world, so instead of trying to find another place, try to find your place. “
-<span>Charlie Chaplin</span></p>
+                            <p>“There is enough space for everyone in the world, so instead of trying to find another place, try to find your place. “ <span>Charlie Chaplin</span></p>
                         </div>
                         <div className="projectBox" >
                             <div className="bgColor5" >
                                 <p className="bgColor3" >
                                     <img alt="simple" src={simple} />
-                                    <a href="" target="_blank" > </a> 
+                                    <a href="" target="_blank" > </a>
                                 </p>
                                 <p className="bgColor3" >
                                     <img alt="simple" src={bebeloo} />
-                                    <a href="" target="_blank" > </a> 
+                                    <a href="" target="_blank" > </a>
                                 </p>
                             </div>
                             <div className="bgColor5" >
                                 <p className="bgColor3" >
                                     <img alt="simple" src={justkish} />
-                                    <a href="" target="_blank" > </a> 
+                                    <a href="" target="_blank" > </a>
                                 </p>
                                 <p className="bgColor3" >
                                     <img alt="simple" src={vilaapp} />
-                                    <a href="" target="_blank" > </a> 
+                                    <a href="" target="_blank" > </a>
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         );
     }
 }
 
-export default Com6;
+export default PortfolioComponent;
