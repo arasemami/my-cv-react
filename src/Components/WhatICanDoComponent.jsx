@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import psd from './../Assets/images/psd.svg';
 import js from './../Assets/images/js.svg';
 
-class Com3 extends Component {
+class WhatICanDoComponent extends Component {
 
     render() {
 
@@ -46,4 +46,4 @@ class Com3 extends Component {
     }
 }
 
-export default Com3;
+export default WhatICanDoComponent;

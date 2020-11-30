@@ -12,7 +12,7 @@ import icon10 from '../Assets/images/icon-10.png'
 import icon11 from '../Assets/images/icon-11.png'
 import icon12 from '../Assets/images/icon-12.png'
 
-class Com5 extends Component {
+class MySkillsComponent extends Component {
 
     render() {
 
@@ -23,9 +23,7 @@ class Com5 extends Component {
                     <div className="container" >
                         <div className="abilitiesTitle " >
                             <h1 className="color1">Abilities</h1>
-                            <p className="" >
-                                “There is enough space for everyone in the world, so instead of trying to find another place, try to find your place. “
-Charlie Chaplin                 </p>
+                            <p>“There is enough space for everyone in the world, so instead of trying to find another place, try to find your place. “ Charlie Chaplin</p>
                         </div>
                         <div className="abilitiesDesc" >
                             <div className="abilitiesTitleBox">
@@ -39,19 +37,19 @@ Charlie Chaplin                 </p>
                                     <span>JSON</span>
                                     <span>MySQL</span>
                                     <span>PHP Laravel</span>
-                                    <span>XML</span>
-                                    <span>Builder Pattern</span>
-                                    <span>Command spanne Interface</span>
+                                    <span>React</span>
+                                    <span>Angular</span>
+                                    <span>Automation test (Jasmine, Jest, Karma)</span>
                                 </div>
                                 <div>
                                     <span>Gulp & Grunt</span>
                                     <span>Webpack</span>
                                     <span>Babel</span>
                                     <span>Polymer</span>
-                                    <span>Kendo</span>
+                                    <span>Kendo UI</span>
                                     <span>Green Sock</span>
                                     <span>Design Patterns</span>
-                                    <span>Jasmine, Karma and Enzyme</span>
+                                    <span>CI/CD</span>
                                     <span>Jira</span>
                                 </div>
                             </div>
@@ -132,4 +130,4 @@ Charlie Chaplin                 </p>
     }
 }
 
-export default Com5;
+export default MySkillsComponent;

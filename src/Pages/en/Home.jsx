@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../../index.css';
 import Seeker from '../../Components/Seeker'
-import Com1 from '../../Components/Com1'
-import Com2 from '../../Components/Com2'
-import Com3 from '../../Components/Com3'
+import AboutMeComponent from '../../Components/AboutMeComponent'
+import MySloganComponent from '../../Components/MySloganComponent'
+import WhatICanDoComponent from '../../Components/WhatICanDoComponent'
 import EducationComponent from '../../Components/EducationComponent'
-import Com5 from '../../Components/Com5'
+import MySkillsComponent from '../../Components/MySkillsComponent'
 import Com6 from '../../Components/Com6'
 import Com7 from '../../Components/Com7'
 import ScrollableAnchor from 'react-scrollable-anchor'
@@ -33,16 +33,16 @@ class Home extends Component {
         return (
             <div>
                 <Seeker openMenu={this.openMenu} selected={this.state.selected} selectedBtn={this.selectedBtn} />
-                <Com1 />
+                <AboutMeComponent />
                 <ScrollableAnchor id={'section2'}>
-                    <Com2 />
+                    <MySloganComponent />
                 </ScrollableAnchor>
-                <Com3 />
+                <WhatICanDoComponent />
                 <ScrollableAnchor id={'section4'}>
                     <EducationComponent />
                 </ScrollableAnchor>
                 <ScrollableAnchor id={'section5'}>
-                    <Com5 />
+                    <MySkillsComponent />
                 </ScrollableAnchor>
                 <ScrollableAnchor id={'section6'}>
                     <Com6 />

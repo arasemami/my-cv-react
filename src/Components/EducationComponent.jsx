@@ -145,11 +145,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Turkey , Ankara</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.advensis.com.tr">www.advensis.com.tr</a>
                                         </span>
 
@@ -173,11 +173,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Turkey , Ankara</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.advensis.com.tr">www.advensis.com.tr</a>
                                         </span>
 
@@ -201,11 +201,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Turkey , Ankara</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.etgigrup.com">www.etgigrup.com</a>
                                         </span>
                                     </span>
@@ -227,11 +227,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Armenia, yerevan</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.studio-one.am">www.studio-one.am</a>
                                         </span>
                                     </span>
@@ -253,11 +253,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Iran , Tehran</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.zagrot.com">www.zagrot.com</a>
                                         </span>
 
@@ -278,11 +278,11 @@ class EducationComponent extends Component {
                                     <p>It all started from here. At first, ARASICO was the developer team and after growing and Create more project It was officially established in 2008 as a software development company (Ara system). There I learned to apply my knowledge in Visual Basic, C#, SQL Server, network configuration and ASP.net. I designed and developed their web-based solutions. Like the online order system in 2006.</p>
                                     <span className="educationIcon">
                                         <span className="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Iran , Tehran</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="#">www.arasico.com</a>
                                         </span>
 
@@ -328,11 +328,11 @@ class EducationComponent extends Component {
                                         Didikojast is Iran's online lost and found service. We use the speed and reach of social media to help people get reunited with beloved pets across Iran and beyond. I have been working with PHP Laravel, Rest API, CSS/LESS, Bootstrap, jQuery . . . </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Remote working</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="https://www.behance.net/gallery/60211989/DIDIkojast">www.didikojast.com</a>
                                         </span>
 
@@ -353,11 +353,11 @@ class EducationComponent extends Component {
                                     <p>Optimus is a Europe Based Agile startup. Optimus offers a platform for everyone to be part of a safe community of like-minded people, share their journey and motivate each other to achieve new goals!. I helped them with the scrum method to design and develop React-Native themes for their mobile application. I have been used React-NAtive, Redux, Firebase, FCM Push Notification, Realm</p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Remote working</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.optimusapp.com">www.optimusapp.com</a>
                                         </span>
                                     </span>
@@ -382,11 +382,11 @@ class EducationComponent extends Component {
                                     <p>The main activities organized a system for employers and job seekers through Short Message Service has been the site of many employers and job seekers are welcome. I work with PHP, HTML, CSS, Javascript, Jquery, C#, Webkit . . .</p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Iran , Tehran</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="#">No Link</a>
                                         </span>
                                     </span>
@@ -408,11 +408,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Iran , Tehran</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="https://www.behance.net/gallery/50695663/saghfenoo-app">www.saghfenoo.com</a>
                                         </span>
 
@@ -435,11 +435,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Iran , Tehran</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.bebello.ir">www.bebello.ir</a>
                                         </span>
 
@@ -462,11 +462,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Remote</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.tarsimnoor.com/">www.tarsimnoor.com</a>
                                         </span>
                                     </span>
@@ -486,11 +486,11 @@ class EducationComponent extends Component {
                                     <p>Falang App is a startup in Iran base to make learning English words easier. I working with React, React Native, Native Base, Redux, Node.js and . . .</p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Iran , Tehran</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.falangapp.ir">www.falangapp.ir</a>
                                         </span>
                                     </span>
@@ -515,11 +515,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Remote</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="https://www.behance.net/gallery/73223415/VilaApp">www.vilaapp.ir</a>
                                         </span>
                                     </span>
@@ -544,11 +544,11 @@ class EducationComponent extends Component {
                         </p>
                                     <span className="educationIcon">
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'map-marker-alt']} />
+                                            <FontAwesomeIcon   icon={['fas', 'map-marker-alt']} />
                                             <a>Remote</a>
                                         </span>
                                         <span class="color1">
-                                            <FontAwesomeIcon className="" icon={['fas', 'globe']} />
+                                            <FontAwesomeIcon   icon={['fas', 'globe']} />
                                             <a href="http://www.vishar.com">www.vishar.com</a>
                                         </span>
                                     </span>

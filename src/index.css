@@ -150,7 +150,20 @@ button {
   line-height: 3.5vh;
   color: #fff;
   font-weight: 300;
-  text-align: justify;
+  text-align: left;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+  border-radius: 50px;
+  padding: 5px;
+  transition: all 300ms ease-in-out;
+}
+
+.social-icon:hover {
+  opacity: 0.2;
 }
 
 /* ========================SECTION 2 ================= */
