@@ -6,7 +6,7 @@ import { far, faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
 library.add(far, faEnvelope)
 
-class Com7 extends Component {
+class GetInTouchComponent extends Component {
 
     render() {
 
@@ -40,4 +40,4 @@ class Com7 extends Component {
     }
 }
 
-export default Com7;
+export default GetInTouchComponent;

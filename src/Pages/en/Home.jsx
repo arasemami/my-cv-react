@@ -6,8 +6,8 @@ import MySloganComponent from '../../Components/MySloganComponent'
 import WhatICanDoComponent from '../../Components/WhatICanDoComponent'
 import EducationComponent from '../../Components/EducationComponent'
 import MySkillsComponent from '../../Components/MySkillsComponent'
-import Com6 from '../../Components/Com6'
-import Com7 from '../../Components/Com7'
+import PortfolioComponent from '../../Components/PortfolioComponent'
+import GetInTouchComponent from '../../Components/GetInTouchComponent'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { configureAnchors } from 'react-scrollable-anchor'
 require('typeface-montserrat')
@@ -45,10 +45,10 @@ class Home extends Component {
                     <MySkillsComponent />
                 </ScrollableAnchor>
                 <ScrollableAnchor id={'section6'}>
-                    <Com6 />
+                    <PortfolioComponent />
                 </ScrollableAnchor>
                 <ScrollableAnchor id={'section7'}>
-                    <Com7 />
+                    <GetInTouchComponent />
                 </ScrollableAnchor>
             </div>
 
