@@ -18,6 +18,7 @@ import tarsim from '../Assets/images/tarsimnoor.png';
 import falang from '../Assets/images/falang.png';
 import zagrot from '../Assets/images/zagrot.png';
 import visharLogo from '../Assets/images/vishar.png';
+import zinoTechLogo from '../Assets/images/zinologo.png';
 
 library.add(fas, faMapMarkerAlt, faGlobe)
 
@@ -120,7 +121,7 @@ class EducationComponent extends Component {
                                 <h1 className="color1">ZINO TECK</h1>
                                 <span>2019 - Present</span>
                                 <p className="educationDescPic">
-                                    <img alt="ADVENSIS" src={advensis} />
+                                    <img alt="ZINO TECH" src={zinoTechLogo} />
                                 </p>
                             </div>
                             <div className="educationDescProject">
